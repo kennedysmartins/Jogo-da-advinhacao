@@ -11,15 +11,15 @@
       <div class="screen1">
         <h1>Jogo da Advinhação</h1>
         <p>Advinhe um número entre 0 e 10</p>
-        <form action="">
-          <input type="number" min="0" max="10" />
-          <button>Tentar</button>
+        <form action="#">
+          <input id="tryNumber" type="number" min="0" max="10" />
+          <button id="btnTry">Tentar</button>
         </form>
       </div>
       <div class="screen2 hidden">
-        <h2>Acertou em X vezes</h2>
+        <h2>Acertou em <span id="attempts">X</span> vezes</h2>
 
-          <button class="btn-screen2">Jogar novamente</button>
+          <button id="btnReset" class="btn-screen2">Jogar novamente</button>
 
 
       </div>
