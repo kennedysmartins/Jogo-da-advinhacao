@@ -100,3 +100,15 @@ h2 {
 .screen2 button {
     border-radius: .6rem;
 }
+
+.gitButton {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 2rem;
+}
+
+.gitButton button {
+    border-radius: .6rem;
+
+}

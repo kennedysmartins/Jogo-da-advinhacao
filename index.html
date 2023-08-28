@@ -3,28 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jogo da Advinhação</title>
+    <title>Jogo da Adivinhação</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
   </head>
   <body>
     <main>
       <div class="screen1">
-        <h1>Jogo da Advinhação</h1>
-        <p>Advinhe um número entre 0 e 10</p>
+        <h1>Jogo da Adivinhação</h1>
+        <p>Adivinhe um número entre 0 e 10</p>
         <form action="#">
           <input id="tryNumber" type="number" min="0" max="10" />
           <button id="btnTry">Tentar</button>
         </form>
       </div>
       <div class="screen2 hidden">
-        <h2>Acertou em <span id="attempts">X</span> vezes</h2>
+        <h2>Adivinhou em <span id="attempts">X</span> vezes</h2>
 
-          <button id="btnReset" class="btn-screen2">Jogar novamente</button>
-
-
+        <button id="btnReset" class="btn-screen2">Jogar novamente</button>
       </div>
     </main>
 
+    <footer class="gitButton">
+      <a
+        href="https://github.com/kennedysmartins/Jogo-da-advinhacao"
+        target="_blank"
+        ><button>Ver no Github</button></a
+      >
+    </footer>
     <script src="main.js"></script>
   </body>
 </html>
